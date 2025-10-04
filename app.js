@@ -3,7 +3,7 @@ const axios = require("axios")
 const ethers = require("ethers")
 const cors = require("cors")
 const app = express()
-const port = process.argv[2] || 3000
+
 
 const UNISWAP = require("@uniswap/sdk")
 const fs = require('fs');
